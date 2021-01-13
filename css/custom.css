@@ -1,0 +1,36 @@
+.hex-cart .badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.trash-hover:hover {
+    color: red;
+}
+
+.jumbotron-bg {
+    background: url(../images/clark-street-mercantile-vC-GqGbakJo-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.bg-darker {
+    background-color: rgba(0,0,0,.35);
+}
+
+.box-shadow {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16);
+    transition: box-shadow .4s;
+}
+.box-shadow:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.24);
+}
+
+.btn {
+    border-width: 2px;
+}

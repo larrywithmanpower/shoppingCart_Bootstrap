@@ -6,13 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="shortcut icon" href="https://cdn1.iconfinder.com/data/icons/business-456/500/presentation-512.png">
+    <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/PERSPECTIVE/general/256/wizard.png">
     <title>金飾曼血拚賣場</title>
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/custom.css">
 
 
 </head>
@@ -26,14 +26,229 @@
         </a>
         <!-- 購物車內的數量 (btn 內包含icon, 數量 badge) -->
         <div class="dropdown ml-auto">
-            <button class="btn btn-sm hex-cart" data-toggle="dropdown" data-flip="fals">
+            <button class="btn btn-sm hex-cart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-cart-arrow-down fa-2x" aria-hidden="true"></i>
+                <span class="badge badge-pill badge-danger">12</span>
             </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                <div class="px-4 py-2">
+                    <h6 class="font-weight-bold">已選擇商品</h6>
+                    <table class="table table-sm" style="min-width: 300px;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="#"><i class="far fa-trash-alt trash-hover"></i></a>
+                                </td>
+                                <td>金牌西裝</td>
+                                <td>1 件</td>
+                                <td>$520</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="#"><i class="far fa-trash-alt trash-hover"></i></a>
+                                </td>
+                                <td>金牌女裝</td>
+                                <td>1 件</td>
+                                <td>$520</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button class="btn btn-primary btn-block">結帳去</button>
+                </div>
+            </div>
         </div>
     </nav>
 
+    <!-- Jombotron -->
+    <div class="jumbotron jumbotron-fluid jumbotron-bg d-flex align-items-end">
+        <div class="container">
+            <div class="bg-darker p-2 text-white">
+                <h1 class="display-4"> “Manners maketh man.”</h1>
+                <p class="lead">The suit is a modern gentleman’s armour, and the Kingsman agents are the new knights.
+                </p>
+            </div>
+        </div>
+    </div>
 
+    <!-- grid and card -->
+    <div class="container">
+        <div class="row">
+            <!-- left list group -->
+            <div class="col-md-3">
+                <div class="list-group sticky-top" id="myList" role="tablist">
+                    <a class="list-group-item list-group-item-action active" data-toggle="list" href="#pane-1"
+                        role="tab">
+                        <i class="fas fa-medal text-warning pr-2"></i>
+                        金牌專賣店
+                    </a>
+                    <a class="list-group-item list-group-item-action" data-toggle="list" href="#pane-2" role="tab">
+                        <i class="fas fa-gift text-danger pr-2"></i>
+                        禮品區
+                    </a>
+                    <a class="list-group-item list-group-item-action disabled" data-toggle="list" href="#" role="tab">
+                        <i class="fas fa-eye-slash pr-1"></i>
+                        消失的密室
+                    </a>
+                    <a class="list-group-item list-group-item-action disabled" data-toggle="list" href="#" role="tab">
+                        <i class="far fa-id-card pr-2"></i>
+                        員工才能進入
+                    </a>
+                </div>
+            </div>
+            <!-- right card aligment -->
+            <div class="col-md-9">
+                <div class="tab-content">
+                    <!-- pane-1 -->
+                    <div class="tab-pane active" id="pane-1">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center h-100 border-0 box-shadow">
+                                    <img class="card-img-top"
+                                        src="https://images.unsplash.com/photo-1494281258937-45f28753affd?w=1350"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">金牌西裝</h5>
+                                        <p class="card-text">滑順手感舒適耐穿</p>
+                                        <p class="card-text">舒適輕柔透氣面料</p>
+                                        <p class="card-text">義大利進口素材</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <div class="btn-group btn-group-sm">
+                                            <a href="#" class="btn btn-outline-secondary">SM</a>
+                                            <a href="#" class="btn btn-outline-secondary disabled">M</a>
+                                            <a href="#" class="btn btn-outline-secondary">L</a>
+                                            <a href="#" class="btn btn-outline-secondary">XL</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center h-100 border-0 box-shadow">
+                                    <img class="card-img-top"
+                                        src="https://images.unsplash.com/photo-1560243563-062bfc001d68?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDV8fGNsb3RoZXMlMjA0MTF4JTIwMjc1fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">金牌牛仔褲</h5>
+                                        <p class="card-text">滑順手感舒適耐穿</p>
+                                        <p class="card-text">舒適輕柔透氣面料</p>
+                                        <p class="card-text">義大利進口素材</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <div class="btn-group btn-group-sm">
+                                            <a href="#" class="btn btn-outline-secondary">SM</a>
+                                            <a href="#" class="btn btn-outline-secondary">M</a>
+                                            <a href="#" class="btn btn-outline-secondary">L</a>
+                                            <a href="#" class="btn btn-outline-secondary">XL</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center h-100 border-0 box-shadow">
+                                    <img class="card-img-top"
+                                        src="https://images.unsplash.com/photo-1580048594073-e574d0b675be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxjbG90aGVzJTIwNDExeCUyMDI3NXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">金牌復古電話 </h5>
+                                        <p class="card-text">背光免提版+電子單鈴（咖啡木） 背光免提版+機械雙鈴（咖啡木） 背光免提布繩+機械雙玲（咖啡木)
+                                            背光免提版+機械雙玲（紅檀木）
+                                            背光免提版+電子單鈴（紅檀木） 背光免提布繩+機械雙玲（紅檀木 背光免提版+機械雙玲（胡桃木） 復古轉盤（紅檀木） 復古轉盤（咖啡木） 紅檀木（普通版）
+                                        </p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-sm btn-block">搶購去</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center h-100 border-0 box-shadow">
+                                    <img class="card-img-top"
+                                        src="https://images.unsplash.com/photo-1441984261150-55796ff52afc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fGNsb3RoZXMlMjA0MTF4JTIwMjc1fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">金牌紓壓仙人掌</h5>
+                                        <p class="card-text">市面上有許多人會打著仙人掌可以吸收輻射的名號，將仙人掌的價位提高，
+                                            但是仙人掌實際上並不具有吸收輻射的功能喔！而且電腦大都放在曬不到太陽的地方，如果可憐的仙人掌一直擺在電腦旁，反而會因為太久沒曬太陽而死亡，所以千萬不要為了吸輻射而購買仙人掌，那是沒有用的！
+                                        </p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-sm btn-block disabled">缺貨中</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center h-100 border-0 box-shadow">
+                                    <img class="card-img-top"
+                                        src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHN1aXQlMjA0MTF4JTIwMjc1fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">金牌歐爸西裝</h5>
+                                        <p class="card-text">滑順手感舒適耐穿</p>
+                                        <p class="card-text">舒適輕柔透氣面料</p>
+                                        <p class="card-text">義大利進口素材</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-sm btn-block">搶購去</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- pane-2 -->
+                    <div class="tab-pane" id="pane-2">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center h-100 border-0 box-shadow">
+                                    <img class="card-img-top"
+                                        src="https://images.unsplash.com/photo-1513780194864-9ac1138f93ac?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjV8fHByZXNlbnR8ZW58MHx8MHw%3D&auto=format&fit=crop&w=600&q=60"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">粉紅小熊禮物盒 </h5>
+                                        <p class="card-text">B. BEANRISTA小熊為agnes b. cafe L.P.G.咖啡店的品牌大使!!
+                                            b. beanrista，名字源於「咖啡豆」及「咖啡師」這二詞的英文
+                                            這可愛小熊被譽為咖啡界中的達人</p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-sm btn-block">搶購去</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center h-100 border-0 box-shadow">
+                                    <img class="card-img-top"
+                                        src="https://images.unsplash.com/photo-1506906151250-3370c8f62d5b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fHByZXNlbnR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60">
+                                    <div class="card-body">
+                                        <h5 class="card-title">一粒小南瓜</h5>
+                                        <p class="card-text">
+                                            小南瓜最近幾年成了果蔬界的網紅，它個頭小巧可愛，吃起來口感極佳，有南瓜的甜香，又有板栗的粉糯，不但如此，它富含胡蘿蔔素，是普通南瓜的三倍以上，其中所含的糖以木糖為主，而且南瓜作為雜糧的一種，既低熱量又高營養，減脂期拿它當主食，也是很好的選擇。
+                                        </p>
+                                    </div>
+                                    <div class="card-footer border-top-0 bg-white">
+                                        <a href="#" class="btn btn-outline-secondary btn-sm btn-block disabled">缺貨中</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- pagination -->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center py-5">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </nav>
     <!-- footer -->
     <footer class="bg-light text-muted py-5">
         <div class="container">
