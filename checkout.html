@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/PERSPECTIVE/general/256/wizard.png">
+    <title>金飾曼血拚賣場-商品</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand font-weight-bold" href="#">
+            <i class="fas fa-tshirt text-info"></i>
+            金飾曼血拚賣場
+        </a>
+    </nav>
+
+    <!-- main content -->
+    <div class="container py-5">
+        <h1 class="text-center text-secondary mb-3 ">金飾曼血拚 結帳</h1>
+        <!-- Alert -->
+        <div class="form-row">
+            <div class="col-12 col-sm">
+                <div class="alert alert-secondary alert-rounded text-center" role="alert">
+                    1.輸入訂單資料
+                </div>
+            </div>
+            <div class="col-12 col-sm">
+                <div class="alert alert-info alert-rounded text-center" role="alert">
+                    2.金流付款
+                </div>
+            </div>
+            <div class="col-12 col-sm">
+                <div class="alert alert-light alert-rounded text-center" role="alert">
+                    3.完成結帳
+                </div>
+            </div>
+        </div>
+        <!-- collapsed cart -->
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-8">
+                <div class="card mb-5">
+                    <div class="card-header border-bottom-0 d-flex" id="headingOne">
+                        <button class="btn btn-link text-decoration-none" data-toggle="collapse"
+                            data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            顯示購物車細節
+                            <i class="fas fa-angle-right collapse-icon--close"></i>
+                            <i class="fas fa-angle-down collapse-icon--open"></i>
+                        </button>
+                        <h3 class="ml-auto mb-0">$1,100</h3>
+                    </div>
+                </div>
+                <!-- collapse content -->
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#headingOne">
+                    <div class="table-responsive">
+                        <table class="table table-sm" style="min-width: 300px;">
+                            <thead>
+                                <th colspan="3" class="text-center">商品名稱</th>
+                                <th>數量</th>
+                                <th style="width: 120px;">小計</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="align-middle">
+                                        <a href="#" data-toggle="modal" data-target="#removeModal" data-title=" 金牌西裝"><i
+                                                class="far fa-trash-alt trash-hover"></i></a>
+                                    </td>
+                                    <td class="align-middle" style="width: 100px;">
+                                        <img src="https://images.unsplash.com/photo-1494281258937-45f28753affd?w=1350"
+                                            class="img-thumbnail img-fluid" alt="商品圖">
+                                    </td>
+                                    <td class="align-middle">金牌西裝</td>
+                                    <td class="align-middle">1 件</td>
+                                    <td class="align-middle text-right">$520</td>
+                                </tr>
+                                <tr>
+                                    <td class="align-middle">
+                                        <a href="#" data-toggle="modal" data-target="#removeModal"
+                                            data-title=" 金牌牛仔褲"><i class="far fa-trash-alt trash-hover"></i></a>
+                                    </td>
+                                    <td class="align-middle">
+                                        <img src="https://images.unsplash.com/photo-1560243563-062bfc001d68?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDV8fGNsb3RoZXMlMjA0MTF4JTIwMjc1fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                                            class="img-thumbnail img-fluid mr-2" alt="商品圖">
+                                    </td>
+                                    <td class="align-middle">金牌牛仔褲</td>
+                                    <td class="align-middle">1 件</td>
+                                    <td class="align-middle text-right">$520</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="4" class="text-right">運費</th>
+                                    <td class="font-weight-bold text-right">$60</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th colspan="4" class="text-right">合計</th>
+                                    <td class="font-weight-bold text-right">$1,100</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+                <!-- Order information -->
+                <h2 class="bg-light py-3 rounded text-center font-weight-bold">訂購人資訊</h2>
+                <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                        <div class="form-group col-md">
+                            <label for="userName">姓名</label>
+                            <input type="text" class="form-control" id="userName" placeholder="姓名" required>
+                            <div class="invalid-feedback">
+                                請填入正確的姓名
+                            </div>
+                        </div>
+                        <div class="form-group col-md">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                        </div>
+                        <div class="invalid-feedback">
+                            請填入正確的Email
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md">
+                            <label for="inputCountry">國家</label>
+                            <select id="inputCountry" class="form-control">
+                                <option selected>台灣</option>
+                                <option>美國</option>
+                                <option>日本</option>
+                                <option>韓國</option>
+                                <option>巴西</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md">
+                            <label for="inputCity">城市</label>
+                            <select id="inputCity" class="form-control">
+                                <option selected>台北</option>
+                                <option>台中</option>
+                                <option>高雄</option>
+                                <option>台東</option>
+                                <option>台南</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md">
+                            <label for="inputZip">郵遞區號</label>
+                            <input type="text" class="form-control" id="inputZip" placeholder="5000" required>
+                        </div>
+                        <div class="invalid-feedback">
+                            請填入正確的郵遞區號
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">地址</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="重慶北路切八段" required>
+                        <div class="invalid-feedback">
+                            請填入正確的地址
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                            <label class="form-check-label" for="gridCheck">
+                                記住資訊
+                            </label>
+                            <div class="invalid-feedback">
+                                懶得填資訊，請打勾
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <a href="index.html" class="btn btn-secondary">繼續選購</a>
+                        <a href="completed.html" class="btn btn-primary">確認付款</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-light text-muted py-5">
+        <div class="container">
+            <ul class="list-inline text-center">
+                <li class="list-inline-item">@ copyright 2021 金飾曼血拚大拍賣</li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-info">
+                        <i class="fab fa-instagram"></i>
+                        instagram
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-info">
+                        <i class="fab fa-facebook-square"></i>
+                        Facebook
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-info">
+                        About
+                    </a>
+                </li>
+            </ul>
+            <p class="  text-center">Made with Bootstrap 4</p>
+        </div>
+    </footer>
+
+    <!-- Modal remove -->
+    <div class="modal fade" id="removeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-danger text-white">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body h4">
+                    是否確認刪除訂單
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary px-3" data-dismiss="modal">否</button>
+                    <button type="button" class="btn btn-danger px-5">是</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+    </script>
+    <script src="js/all.js"></script>
+
+</body>
+
+</html>

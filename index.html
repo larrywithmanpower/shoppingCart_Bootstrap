@@ -36,24 +36,34 @@
                     <table class="table table-sm" style="min-width: 300px;">
                         <tbody>
                             <tr>
-                                <td>
-                                    <a href="#"><i class="far fa-trash-alt trash-hover"></i></a>
+                                <td class="align-middle">
+                                    <a href="#" data-toggle="modal" data-target="#removeModal" data-title=" 金牌西裝"><i
+                                            class="far fa-trash-alt trash-hover"></i></a>
                                 </td>
-                                <td>金牌西裝</td>
-                                <td>1 件</td>
-                                <td>$520</td>
+                                <td class="align-middle" style="width: 80px;">
+                                    <img src="https://images.unsplash.com/photo-1494281258937-45f28753affd?w=1350"
+                                        class="img-thumbnail img-fluid" alt="商品圖">
+                                </td>
+                                <td class="align-middle">金牌西裝</td>
+                                <td class="align-middle">1 件</td>
+                                <td class="align-middle">$520</td>
                             </tr>
                             <tr>
-                                <td>
-                                    <a href="#"><i class="far fa-trash-alt trash-hover"></i></a>
+                                <td class="align-middle">
+                                    <a href="#" data-toggle="modal" data-target="#removeModal" data-title=" 金牌牛仔褲"><i
+                                            class="far fa-trash-alt trash-hover"></i></a>
                                 </td>
-                                <td>金牌女裝</td>
-                                <td>1 件</td>
-                                <td>$520</td>
+                                <td class="align-middle" style="width: 80px;">
+                                    <img src="https://images.unsplash.com/photo-1560243563-062bfc001d68?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDV8fGNsb3RoZXMlMjA0MTF4JTIwMjc1fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                                        class="img-thumbnail img-fluid mr-2" alt="商品圖">
+                                </td>
+                                <td class="align-middle">金牌牛仔褲</td>
+                                <td class="align-middle">1 件</td>
+                                <td class="align-middle">$520</td>
                             </tr>
                         </tbody>
                     </table>
-                    <button class="btn btn-primary btn-block">結帳去</button>
+                    <a href="checkout.html" class="btn btn-primary btn-block">結帳去</a>
                 </div>
             </div>
         </div>
@@ -97,6 +107,18 @@
             </div>
             <!-- right card aligment -->
             <div class="col-md-9">
+                <div class="form-inline">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control border-w-2" placeholder="Search..."
+                            aria-label="Recipient's username" aria-describedby="button-addon2" style="height: 40px;">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-warning" type="button" id="button-addon2">
+                                <i class="fas fa-search"></i>
+                                Search
+                            </button>
+                        </div>
+                    </div>
+                </div>
                 <div class="tab-content">
                     <!-- pane-1 -->
                     <div class="tab-pane active" id="pane-1">
@@ -107,7 +129,7 @@
                                         src="https://images.unsplash.com/photo-1494281258937-45f28753affd?w=1350"
                                         alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">金牌西裝</h5>
+                                        <h5 class="card-title"> <a href="product.html">金牌西裝</a> </h5>
                                         <p class="card-text">滑順手感舒適耐穿</p>
                                         <p class="card-text">舒適輕柔透氣面料</p>
                                         <p class="card-text">義大利進口素材</p>
@@ -128,7 +150,7 @@
                                         src="https://images.unsplash.com/photo-1560243563-062bfc001d68?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDV8fGNsb3RoZXMlMjA0MTF4JTIwMjc1fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
                                         alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">金牌牛仔褲</h5>
+                                        <h5 class="card-title"> <a href="#">金牌牛仔褲</a> </h5>
                                         <p class="card-text">滑順手感舒適耐穿</p>
                                         <p class="card-text">舒適輕柔透氣面料</p>
                                         <p class="card-text">義大利進口素材</p>
@@ -149,7 +171,7 @@
                                         src="https://images.unsplash.com/photo-1580048594073-e574d0b675be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxjbG90aGVzJTIwNDExeCUyMDI3NXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
                                         alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">金牌復古電話 </h5>
+                                        <h5 class="card-title"> <a href="#">金牌復古電話</a> </h5>
                                         <p class="card-text">背光免提版+電子單鈴（咖啡木） 背光免提版+機械雙鈴（咖啡木） 背光免提布繩+機械雙玲（咖啡木)
                                             背光免提版+機械雙玲（紅檀木）
                                             背光免提版+電子單鈴（紅檀木） 背光免提布繩+機械雙玲（紅檀木 背光免提版+機械雙玲（胡桃木） 復古轉盤（紅檀木） 復古轉盤（咖啡木） 紅檀木（普通版）
@@ -166,7 +188,7 @@
                                         src="https://images.unsplash.com/photo-1441984261150-55796ff52afc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fGNsb3RoZXMlMjA0MTF4JTIwMjc1fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
                                         alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">金牌紓壓仙人掌</h5>
+                                        <h5 class="card-title"> <a href="#">金牌紓壓仙人掌</a> </h5>
                                         <p class="card-text">市面上有許多人會打著仙人掌可以吸收輻射的名號，將仙人掌的價位提高，
                                             但是仙人掌實際上並不具有吸收輻射的功能喔！而且電腦大都放在曬不到太陽的地方，如果可憐的仙人掌一直擺在電腦旁，反而會因為太久沒曬太陽而死亡，所以千萬不要為了吸輻射而購買仙人掌，那是沒有用的！
                                         </p>
@@ -182,7 +204,7 @@
                                         src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHN1aXQlMjA0MTF4JTIwMjc1fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
                                         alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">金牌歐爸西裝</h5>
+                                        <h5 class="card-title"><a href="#">金牌歐爸西裝</a></h5>
                                         <p class="card-text">滑順手感舒適耐穿</p>
                                         <p class="card-text">舒適輕柔透氣面料</p>
                                         <p class="card-text">義大利進口素材</p>
@@ -287,7 +309,7 @@
                     </button>
                 </div>
                 <div class="modal-body h4">
-                    是否確認刪除訂單
+                    是否確認刪除該商品
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary px-3" data-dismiss="modal">否</button>

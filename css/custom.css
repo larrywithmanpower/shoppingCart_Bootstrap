@@ -35,3 +35,32 @@
 .btn {
     border-width: 2px;
 }
+
+.border-w-1 {
+    border-width: 1px;
+}
+
+.border-w-2 {
+    border-width: 2px;
+}
+
+.alert-rounded {
+    border-radius: 50px;
+}
+
+/* collapse icon open and close */
+.collapsed .collapse-icon--close {
+    display: inline-block;
+}
+
+.collapse-icon--close {
+    display: none;;
+}
+
+.collapse-icon--open {
+    display: inline;
+}
+
+.collapsed .collapse-icon--open {
+    display: none;
+}
