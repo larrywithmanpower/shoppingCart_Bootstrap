@@ -34,7 +34,9 @@ $(document).ready(function () {
     var modal = $(this); // modal找到本身的class name .modal-title，使用.text(title)替換成中文字
 
     modal.find('.modal-title').text('確認刪除' + title);
-  });
+  }); // $('#toCompleted').onclick(function () {
+  //     window.loction.href = "html/completed.html";
+  // });
 }); // Validation
 
 (function () {
@@ -55,4 +57,4 @@ $(document).ready(function () {
       }, false);
     });
   }, false);
-})();
+})(); // 驗證後跳轉找不到資訊
